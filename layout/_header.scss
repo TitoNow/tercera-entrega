@@ -1,0 +1,23 @@
+header{
+
+    nav{
+        background-color: $primary-color;
+        display: flex;
+        padding: 0 1rem;
+
+        ul{
+            list-style: none;
+            display: flex;
+
+            li{
+
+                a{
+
+                    &:hover{
+                        background-color: $secundary-color;
+                    }
+                }
+            }
+        }
+    }
+}
